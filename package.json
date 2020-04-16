@@ -1,0 +1,23 @@
+{
+  "name": "compress_images_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegolopes98/compress_images_js.git"
+  },
+  "author": "diegolopes98",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegolopes98/compress_images_js/issues"
+  },
+  "homepage": "https://github.com/diegolopes98/compress_images_js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
