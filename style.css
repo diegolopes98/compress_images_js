@@ -1,0 +1,105 @@
+body {
+  background: #e7e7e7;
+  color: #444;
+}
+
+form {
+  padding: 20px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+form input[type="file"] {
+  display: block;
+  padding: 10px 0;
+}
+
+form .upload-btn-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 20px 0 10px;
+  overflow: hidden;
+}
+
+form .upload-btn-wrapper button {
+  border: none;
+  color: white;
+  background-color: #0f82ff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form .upload-btn-wrapper input[type="file"] {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+.preview {
+  padding: 0;
+  margin: 10px 0 0 0;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  overflow: auto;
+}
+
+.preview .loading {
+  animation: fade 600ms alternate infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.preview ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.preview ol li {
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px #eee solid;
+}
+
+.preview ol li:last-child {
+  border-bottom: none;
+}
+
+.preview ol li p {
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.preview ol li img {
+  display: block;
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+.preview ol li canvas {
+  display: block;
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+.preview > p {
+  padding: 15px 18px;
+  color: #aaa;
+  margin: 0;
+  word-wrap: break-word;
+}

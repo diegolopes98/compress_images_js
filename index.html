@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="compress.js" defer></script> 
+    <title>Compress Images JS</title>
+  </head>
+  <body>
+    <form method="post" enctype="multipart/form-data">
+      <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+      <div>
+        <div class="upload-btn-wrapper">
+          <button>Choose Images</button>
+          <input
+            type="file"
+            id="image_uploads"
+            name="image_uploads"
+            accept=".jpg, .jpeg, .png"
+            multiple
+          />
+        </div>
+      </div>
+      <div class="preview">
+        <p>No files currently selected for upload</p>
+      </div>
+    </form>
+  </body>
+</html>
