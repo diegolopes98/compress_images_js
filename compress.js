@@ -1,6 +1,17 @@
 const input = document.querySelector("input");
 const preview = document.querySelector(".preview");
 input.addEventListener("change", updateImageDisplay);
+input.addEventListener("click", pickImages)
+
+function pickImages() {
+  try {
+    if(Android){
+      Android.callGallery();
+    } //TODO: implement ios
+  } catch (error) {
+    console.error(error)
+  }
+}
 
 function validFileType(file) {
   const fileTypes = [

@@ -9,12 +9,12 @@ form {
   font-family: Arial;
 }
 
-/* form input[type="file"] {
+form input[type="file"] {
   display: block;
   padding: 10px 0;
-} */
+}
 
-/* form .upload-btn-wrapper {
+form .upload-btn-wrapper {
   position: relative;
   display: inline-block;
   margin: 20px 0 10px;
@@ -28,9 +28,9 @@ form .upload-btn-wrapper button {
   padding: 10px 25px;
   border-radius: 6px;
   font-size: 14px;
-} */
+}
 
-/* form .upload-btn-wrapper input[type="file"] {
+form .upload-btn-wrapper input[type="file"] {
   position: absolute;
   width: 100%;
   top: 0;
@@ -40,7 +40,7 @@ form .upload-btn-wrapper button {
   margin: 0;
   padding: 0;
   opacity: 0;
-} */
+}
 
 .preview {
   padding: 0;
