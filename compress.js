@@ -3,6 +3,10 @@ const preview = document.querySelector(".preview");
 input.addEventListener("change", updateImageDisplay);
 input.addEventListener("click", pickImages)
 
+function loadImagesByWebView(paths){
+  console.log(paths)
+}
+
 function pickImages() {
   try {
     if(Android){
